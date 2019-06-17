@@ -15,6 +15,12 @@ Terraform module for Zsh configuration framework [Prezto](https://github.com/sor
     git clone https://github.com/tarak/prezto-terraform.git .zprezto-contrib/terraform
     ```
 
+3. Add the module to the Prezto modules to load:
+    ```
+    zstyle ':prezto:load' pmodule \
+    terraform
+    ```
+
 ## Aliases
 
 - `tf` is an alias for `terraform`
