@@ -4,18 +4,16 @@ Terraform module for Zsh configuration framework [Prezto](https://github.com/sor
 
 ## Installation
 
-Set the module directory using `:prezto:load:pmodule-dirs` setting in `~/.zpreztorc`:
+1. Set the module directory using `:prezto:load:pmodule-dirs` setting in `~/.zpreztorc`:
+    ```
+    zstyle ':prezto:load' pmodule-dirs $HOME/.zprezto-contrib
+    ```
 
-```
-zstyle ':prezto:load' pmodule-dirs $HOME/.zprezto-contrib
-```
-
-Clone this repository:
-
-```
-cd
-git clone https://github.com/tarak/prezto-terraform.git .zprezto-contrib/terraform
-```
+2. Clone this repository:
+    ```
+    cd
+    git clone https://github.com/tarak/prezto-terraform.git .zprezto-contrib/terraform
+    ```
 
 ## Aliases
 
