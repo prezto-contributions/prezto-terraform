@@ -11,14 +11,13 @@ Terraform module for Zsh configuration framework [Prezto](https://github.com/sor
 
 2. Clone this repository:
     ```
-    cd
-    git clone https://github.com/tarak/prezto-terraform.git .zprezto-contrib/terraform
+    git clone https://github.com/tarak/prezto-terraform.git ~/.zprezto-contrib/terraform
     ```
 
 3. Add the module to the Prezto modules to load in your `~/.zpreztorc`:
     ```
     zstyle ':prezto:load' pmodule \
-    terraform
+      terraform
     ```
 
 ## Aliases
