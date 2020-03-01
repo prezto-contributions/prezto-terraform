@@ -1,6 +1,7 @@
 # Prezto Terraform module
 
-Terraform module for Zsh configuration framework [Prezto](https://github.com/sorin-ionescu/prezto).
+[Terraform](https://github.com/hashicorp/terraform) module for the
+[Prezto](https://github.com/sorin-ionescu/prezto) Zsh configuration framework.
 
 ## Installation
 
